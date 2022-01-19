@@ -17,65 +17,110 @@
 
 	<header>
 		<h1>Aaron Loera</h1>
+
+		<nav>
+			<a href="#">Intro</a>
+			<a href="#">About</a>
+			<a href="#">Contact</a>
+		</nav>
+
 	</header>
 
 	<nav></nav>
 
 	<body>
+		<article>
+			<article>
 
-		<h2>An Intro section that contains the following information:</h2>
-		<section>
-			<ul>
-				<li>Who you are</li>
+				<!----------Intro---------->
+				<section class="box content-box">
 
-				<p>
-					<!--So, who are you?-->
-				</p>
-				<li>Where you are located</li>
-				<p>
-					<!--So, where are you?-->
-				</p>
-			</ul>
-		</section>
+					<div>
+						<h2>Let me introduce myself...</h2>
 
-		<section>
-			<h2>An About Me section that contains the following information:</h2>
+						<p>Who am I? Well, my name is up top, but what’s in a name? It’s more than just a group of letters or sounds. It’s
+							my reputation. And those that know me say I’m a generally a good person. Given time, would you at least say that I'm a good employee?</p>
+					</div>
 
-			<ul>
-				<li>A description that shows your passion for web development and your willingness to work with others</li>
+					<div>
+						<h2>"Where am I?" you ask!</h2>
 
-				<p>
-					<!--Well, get to it!-->
-				</p>
+						<p>I’m in Arizona, but you can typically find me in the clouds. What is it they say, “Day dreamer… night thinker?”
+							~unknown.</p>
+					</div>
 
-				<li>One or two sentences that describe other interests you have outside of web development</li>
+					<nav> <a href="#">Return to Top</a></nav>
+				</section>
+				<!--------End Intro-------->
 
-				<p>
-					<!--Fortunately, 1 or 2 sentences will be nough-->
-				</p>
+				<!--make hr a diamond-->
+				<hr>
+				<!--make hr a diamond-->
 
-			</ul>
-		</section>
+				<!----------About Me---------->
+				<section class="box content-box">
 
-		<!------------Contact Details------------>
-		<section>
-			<h2>A Contact section that contains the following information:</h2>
+					<div>
+						<h2>More about me...</h2>
 
-			<ul>
-				<li>A link to your LinkedIn profile</li>
+						<p>I help people.</p>
+						<p>It isn’t only what I do. It’s part of who I am.</p>
+						<p>For many years, I’ve helped people spiritually, when someone is loosing hope; emotionally, when someone needs a venting-post; and with translation between Spanish and English.</p>
 
-				<li>A link to your GitHub profile</li>
+            <p>In recent years, I’ve also helped some with their schooling—I’ve worked as a tutor at a local college. And now I’m in school to become a nurse—I’ll soon be helping people physically too.</p>
 
-				<li>A link to your email (optional)</li>
-			</ul>
-		</section>
-    <!----------End Contact Details---------->
+						<p>Is it surprising, then, that I continue reaching out to help others? Maybe this time through software.</p>
+					</div>
 
-		<script src="script.js">
+					<div>
+						<h3>In order of importance:</h3>
 
-		</script>
+						<ol>
+							<li>I volunteer at church</li>
+							<li>I read and study and think and learn. I really like learning.</li>
+							<li>I plan for my future. Someday I’ll make time to have an aquarium again.</li>
+						</ol>
+					</div>
 
+					<div>
+						<h3>Other things about me, in no specific order:</h3>
+						<ul>
+							<li>I’m weird. And I enjoy every minute of it.</li>
+							<li>I enjoy “dad jokes.”</li>
+							<li>I’m a talker. I enjoy conversations. Sometimes I listen too. /rofl smiley</li>
+						</ul>
+					</div>
+
+					<nav> <a href="#">Return to Top</a></nav>
+				</section>
+				<!--------End About Me-------->
+
+				<!--make hr a diamond-->
+				<hr>
+				<!--make hr a diamond-->
+
+				<!----------Contact Details---------->
+				<section class="box content-box">
+
+					<h2>Contact info.</h2>
+
+					<nav> <a href="#">Return to Top</a></nav>
+				</section>
+				<!--------End Contact Details-------->
+
+			</article>
+
+			<script src="script.js">
+
+			</script>
+		</article>
 	</body>
+
+	<footer>
+		<h3>
+			<!--you'll need something here-->
+		</h3>
+	</footer>
 
 </main>
 
