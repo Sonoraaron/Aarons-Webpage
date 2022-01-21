@@ -1,0 +1,110 @@
+main, .box {
+  width: 750px;
+  margin: 50px 50px;
+  padding: 50px 50px;
+  }
+
+/*from view-source:https://preview.colorlib.com/#jony*/
+h1{
+  margin:.67em 0;
+  font-size:2em;
+  padding: 0px;
+  text-align: center;
+  }
+
+body{
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:14px;
+  color:#501D1C;
+  }
+
+h1,h2,h3{  
+  font-weight:500;
+  }
+
+h1,h2,h3{
+  margin-top:20px;
+  margin-bottom:10px
+  }
+
+body,h1,h2,h3{font-family:'Open Sans',sans-serif}
+
+div {padding: 25px 25px}
+
+/*I added the following diamond <hr> to fulfill assignment requirements, but I didn't like the look, so I colored it the same as the background. This keeps the code, so I can fulfill the requirement, but makes it look "invisible."*/
+
+
+/*To create a diamond-shaped <hr> division*/
+
+  hr {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: #AAA4A3;
+  color: #AAA4A3;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transform: rotate(45deg);
+}
+
+/*to create boxes around content*/
+.box {
+  background: rgb(182, 218, 123);
+  border: #101500
+}
+
+.box2 {
+  background: #101500;
+  border: 00px solid rgb(182, 218, 123);  
+}
+
+.border-box {
+  box-sizing: border-box;
+  background: rgb(182, 218, 123);
+  border: 1px solid #101500
+}
+
+/* unvisited link */
+a:link {
+  color: #101500;
+}
+
+/* visited link */
+a:visited {
+
+  color: #501D1C;
+}
+
+
+/* mouse over link */
+a:hover {
+  color: #E7AEBE;
+}
+
+/* selected link */
+a:active {
+  color: #B6DA7B;
+}
+
+  /*
+  yellow green crayola B6DA7B
+
+  cameo pink E7AEBE
+
+  caput mortuum 501D1C
+
+  quick silver AAA4A3
+
+  black chocolate 101500
+  
+  */
+
+/* to "paint" the backgrond color */
+  body {
+      
+    background-position: center;
+  
+    alt: "Flowering succulent.";
+
+    background-image: url("../images/plantcropped.jpg");
+}
