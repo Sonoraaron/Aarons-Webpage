@@ -31,9 +31,6 @@ body,h1,h2,h3{font-family:'Open Sans',sans-serif}
 
 div {padding: 25px 25px}
 
-/*I added the following diamond <hr> to fulfill assignment requirements, but I didn't like the look, so I colored it the same as the background. This keeps the code, so I can fulfill the requirement, but makes it look "invisible."*/
-
-
 /*To create a diamond-shaped <hr> division*/
 
   hr {
@@ -106,5 +103,5 @@ a:active {
   
     alt: "Flowering succulent.";
 
-    background-image: url("../images/plantcropped.jpg");
+    background-image: url("https://raw.githubusercontent.com/Sonoraaron/Aarons-Webpage/main/images/plantcropped.jpg");
 }
